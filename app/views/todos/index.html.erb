@@ -1,0 +1,9 @@
+<h1> Welcome to Jibe! </h1>
+<h3> An app to keep you and yours organized </h3>
+
+<% @todo.each do |item| %>
+  <p>
+    <strong>Item:</strong> <%= item.item %><br>
+    <strong>Completed?</strong> <%= item.completed%><br>
+  </p>
+<% end %>
