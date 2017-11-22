@@ -4,10 +4,18 @@
   <div class="buttons"></div>
 </div>
 
+<div class="todoList">
+  <div class="todoListHeader">
+    To Do Items
+  </div>
+  <div class="todos">
+    <% @todo.each do |item| %>
+      <p id="todo">
+        <strong>Item:</strong> <%= item.item %><br>
+        <strong>Completed?</strong> <%= item.completed%><br>
+      </p>
+    <% end %>
+  </div>
+</div>
 
-<% @todo.each do |item| %>
-  <p>
-    <strong>Item:</strong> <%= item.item %><br>
-    <strong>Completed?</strong> <%= item.completed%><br>
-  </p>
-<% end %>
+<footer>Made by Beth Witten</footer>

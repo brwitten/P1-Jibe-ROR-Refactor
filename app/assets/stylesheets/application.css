@@ -29,7 +29,11 @@
    background-position: 0 0, 15px 15px;
  }
 
- h4 {
+h1 {
+  font-size: 40px;
+}
+
+h4 {
   font-weight: lighter;
   color: #4ECDC4;
 }
@@ -49,4 +53,42 @@
   margin-top: 30px;
   font-style: italic;
   color: #b0b8c4;
+}
+
+.todoList {
+  border: 1px solid #08171A;
+  background-color: #F7FFF7;
+  border-radius: 10px;
+  min-height: 500px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.todoListHeader {
+  height: 40px;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #08171A;
+  border-radius: 10px;
+  padding: 12px 5px 0px 5px;
+  background-color: #1A535C;
+  color: #FFE66D;
+  font-size: 25px;
+}
+
+.todos {
+  font-size: 25px;
+  text-decoration: none;
+  padding-left: 25px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  background-color: #f5f5f5;
+  text-align: center;
 }
