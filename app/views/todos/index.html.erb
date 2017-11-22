@@ -12,8 +12,9 @@
   <div class="todos">
     <% @todo.each do |item| %>
       <p id="todo">
-        <strong>Item:</strong> <%= item.item %><br>
-        <strong>Completed?</strong> <%= item.completed%><br>
+        <strong>You need to...</strong> <%= item.item %>
+        <a class="delete"> <%= button_to "delete" %> </a>
+        <br>
       </p>
     <% end %>
   </div>

@@ -79,10 +79,13 @@ h4 {
 .newTodo {
   float: right;
   background-color: gray;
-  width: 25px;
-  margin-right: 10px;
   text-decoration: none;
   color: yellow;
+  border: 1px solid #08171A;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 0px 5px 3px 5px;
+  margin: 0px 10px 8px 10px;
 }
 
 .todos {
