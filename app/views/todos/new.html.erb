@@ -1,0 +1,6 @@
+<div class="todoListHeader">
+  <%= form_for :todo, url: "/todos", method: "post" do |f| %>
+    Create a new to do item: <%= f.text_field :item %>
+    <%= f.submit "Save Todo" %>
+  <% end %>
+</div>
