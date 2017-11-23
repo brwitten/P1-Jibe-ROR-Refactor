@@ -13,7 +13,7 @@
     <% @todo.each do |item| %>
       <p id="todo">
         <strong>You need to...</strong> <%= item.item %>
-        <a class="delete"> <%= button_to "delete" %> </a>
+        <%= button_to "Delete" %>
         <br>
       </p>
     <% end %>
