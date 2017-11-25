@@ -12,7 +12,7 @@ class TodosController < ApplicationController
     todo_params = params.require(:todo).permit(:item)
     todo = Todo.new(todo_params)
     if todo.save
-      redirect_to "/"
+      redirect_to todo_path(todo)
     end
   end
 

@@ -1,6 +1,7 @@
 <div class="todoListHeader">
-  <h3><%= @todo.item %></h3>
+  <h3>Your To Do Item: <br>
+    <%= @todo.item %></h3>
   <p><%=  @todo.completed %></p>
-  <p><%= button_to "Delete", @creature, method: :delete %></p>
+  <p><%= button_to "Delete This To Do", @creature, method: :delete %></p>
   <a href="/"> Go Back to JIBE Home </a>
 </div>

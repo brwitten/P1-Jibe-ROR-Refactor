@@ -12,7 +12,8 @@
   <div class="todos">
     <% @todo.each do |item| %>
       <p id="todo">
-        <strong>You need to...</strong> <%= item.item %>
+        <strong>You need to...</strong> <%= item.item %> <%= item.id %>
+        <a href="/todos:id"> Inspect </a>
         <br>
       </p>
     <% end %>
