@@ -12,10 +12,8 @@
   <div class="todos">
     <% @todo.each do |item| %>
       <p id="todo">
-        <strong>You need to...</strong> <%= item.item %> <%= item.id %>
-        <a href="/todos:id"> Inspect </a>
-        <%= button_to "Show", {}
-        <br>
+        <strong>You need to...</strong> 
+        <a href='/todos/<%=item.id%>'> <%= item.item %> </a>
       </p>
     <% end %>
   </div>
