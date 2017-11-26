@@ -11,4 +11,4 @@ Additional features to add:
 + Add ability to create Lists
 + Associate lists with To Dos
 
-![alt text](app/assets/images/screenshot.png)3
+![alt text](app/assets/images/screenshot.png)
