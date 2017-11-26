@@ -6,4 +6,4 @@ Review the original Javascript project here: https://github.com/brwitten/project
 
 In this version of Jibe you can create To Do items which are rendered on your homepage. From the homepage if you click on a To Do it will take you to a page where you can delete the To Do.
 
-![alt text](app/assets/images/screenshot.png)
+![alt text](app/assets/images/screenshot.png)3
