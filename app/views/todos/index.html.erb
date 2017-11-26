@@ -1,6 +1,12 @@
 <div class="full-width-div" id="welcome">
   <h1 class="display-3">Welcome to Jibe</h1>
   <h4>Keep you & yours organized</h4>
+  <% if current_user %>
+  Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %>
+  <% else %>
+    <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+    <% end %>
+
   <div class="buttons"></div>
 </div>
 
@@ -12,7 +18,7 @@
   <div class="todos">
     <% @todo.each do |item| %>
       <p id="todo">
-        <strong>You need to...</strong> 
+        <strong>You need to...</strong>
         <a href='/todos/<%=item.id%>'> <%= item.item %> </a>
       </p>
     <% end %>
